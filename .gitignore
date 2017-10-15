@@ -99,3 +99,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+./dependencies/Adafruit-Motor-HAT-Python-Library/Adafruit_MotorHAT.egg-info
+./dependencies/Adafruit-Motor-HAT-Python-Library/build
+./dependencies/Adafruit-Motor-HAT-Python-Library/dist
