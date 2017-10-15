@@ -22,18 +22,22 @@ class motor():
 			print("Forward, half speed")
 			self.motorHat.getMotor(i).setSpeed(128)
 			self.motorHat.getMotor(i).run(Adafruit_MotorHAT.FORWARD)
+			time.sleep(2)
 
 			print("Forward, full speed")
 			self.motorHat.getMotor(i).setSpeed(255)
 			self.motorHat.getMotor(i).run(Adafruit_MotorHAT.FORWARD)
+			time.sleep(2)
 
 			print("Backwards, half speed")
 			self.motorHat.getMotor(i).setSpeed(128)
 			self.motorHat.getMotor(i).run(Adafruit_MotorHAT.BACKWARD)
+			time.sleep(2)
 
 			print("Backwards, full speed")
 			self.motorHat.getMotor(i).setSpeed(255)
 			self.motorHat.getMotor(i).run(Adafruit_MotorHAT.BACKWARD)
+			time.sleep(2)
 
 
 		print("Test finalized. Releasing motors")

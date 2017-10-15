@@ -1,9 +1,12 @@
 
-import ../source/motor.py
+from context import source
+from source import motor
 
 
 def testRunningMotors():
 
 
-	motor=motor()
-	motor.testRunningMotors()
+	testMotor= motor.motor()
+	testMotor.testRunningMotors()
+
+testRunningMotors()
